@@ -1,15 +1,15 @@
 public class Voiture{
-	public String type;
+	public CharSequence type;
 
-	public Voiture(String type){
+	public Voiture(CharSequence type){
 		this.type=type;
 	}
 
-    public String getType(){
+    public CharSequence getType(){
     	return this.type;
     }
 
-    public void setType(String type){
+    public void setType(CharSequence type){
     	this.type=type;
     }
 }
